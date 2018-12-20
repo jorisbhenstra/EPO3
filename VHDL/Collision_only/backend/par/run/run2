@@ -1,1 +1,0 @@
-ssh -XY tcdvanderbieze@ce-epo3-cad.ewi.tudelft.nl cd /home/tcdvanderbieze/Collision/backend/par/run\; innovus -files ../tcl/par2.tcl

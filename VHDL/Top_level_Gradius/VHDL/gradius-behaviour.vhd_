@@ -34,7 +34,7 @@ begin
 		when gaming_state =>
 			game_state_info_signal <= "10";
 			
-			if(collision_vector_player='1') then
+			if(collision_player='1') then
 				new_state <= game_over_state;
 			else
 				new_state <= gaming_state;

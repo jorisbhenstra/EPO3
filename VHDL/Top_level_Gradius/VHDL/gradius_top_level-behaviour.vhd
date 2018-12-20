@@ -6,7 +6,7 @@ architecture behaviour of gradius_top_level is
 component display 	--VGA
 port(clk : in std_logic;
 reset: in std_logic;
-game: in std_logic_vector (1 downto 0);
+--game: in std_logic_vector (1 downto 0);
 r: out std_logic;
 g: out std_logic;
 b: out std_logic;
@@ -36,7 +36,7 @@ y_enemy6 : in std_logic_vector(8 downto 0));
 end component;
 
 
-component top_level  --Collision
+component col_top_level  --Collision
   port( clk, reset : in std_logic;
 	y_0   : in  std_logic_vector(8 downto 0);
         y_1   : in  std_logic_vector(8 downto 0);
@@ -188,7 +188,7 @@ begin
 VGA : display port map(
 	clk => clk,
 	reset => reset,
-	game => game_state_info_signal_s,
+	--game => game_state_info_signal_s,
 	r => r,
 	g => g,
 	b => b,
@@ -216,7 +216,7 @@ VGA : display port map(
 	x_enemy6 => x_pos_e6,
 	y_enemy6 => y_pos_e6);
 
-Collision : top_level  port map (
+Collision : col_top_level  port map (
 	clk => clk,
 	reset => reset,
 	y_0   => y_pos_b1,
