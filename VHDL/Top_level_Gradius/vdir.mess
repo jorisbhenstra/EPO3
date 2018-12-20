@@ -1,0 +1,84 @@
+Library vendor : Model Technology
+Maximum unnamed designs : 3
+ENTITY gradius_top_level
+    Source modified time: Tue Dec 18 10:03:36 2018
+    Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
+    Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
+    Source directory: /home/tcdvanderbieze/Collision/Gradius_02b
+    HDL source file: VHDL/top_level.vhd
+    Source file: VHDL/top_level.vhd
+    Start location: VHDL/top_level.vhd:4
+    Version string: U`K`I_YFzJnPmS;OVLZgU3
+    Opcode format: 10.5b; VCOM SE-64 Object version 63
+    VHDL language standard: 3 (VHDL-2008)
+    Compile time: Tue Dec 18 10:03:36 2018
+    Debug Symbol file exists
+    Compiled in vopt flow
+    Compile options: -quiet -nologo -2008 -lower -explicit -work work
+    Compile defaults: Explicit=1 CvgOpt=0
+  ARCHITECTURE BODY behaviour
+    Source modified time: Tue Dec 18 12:27:38 2018
+    Depends on: E work gradius_top_level U`K`I_YFzJnPmS;OVLZgU3
+    Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
+    Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
+    Source directory: /home/tcdvanderbieze/Gradius_02b
+    HDL source file: VHDL/gradius_top_level-behaviour.vhd
+    Source file: VHDL/gradius_top_level-behaviour.vhd
+    Start location: VHDL/gradius_top_level-behaviour.vhd:4
+    Version string: WW:=HJ^mGCAzgnOO^LO7_2
+    Opcode format: 10.5b; VCOM SE-64 Object version 63
+    VHDL language standard: 3 (VHDL-2008)
+    Compile time: Tue Dec 18 12:27:38 2018
+    Debug Symbol file exists
+    Compiled in vopt flow
+    Compile options: -quiet -nologo -2008 -lower -explicit -work work
+    Compile defaults: Explicit=1 CvgOpt=0
+ENTITY state_gradius
+    Source modified time: Tue Dec 18 09:59:46 2018
+    Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
+    Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
+    Source directory: /home/tcdvanderbieze/Collision/Gradius_02b
+    HDL source file: VHDL/gradius.vhd
+    Source file: VHDL/gradius.vhd
+    Start location: VHDL/gradius.vhd:4
+    Version string: ?EHgkO<EWb>g?WAbX[3Mj2
+    Opcode format: 10.5b; VCOM SE-64 Object version 63
+    VHDL language standard: 3 (VHDL-2008)
+    Compile time: Tue Dec 18 09:59:46 2018
+    Debug Symbol file exists
+    Compiled in vopt flow
+    Compile options: -quiet -nologo -2008 -lower -explicit -work work
+    Compile defaults: Explicit=1 CvgOpt=0
+  ARCHITECTURE BODY behaviour
+    Source modified time: Tue Dec 18 09:59:59 2018
+    Depends on: E work state_gradius ?EHgkO<EWb>g?WAbX[3Mj2
+    Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
+    Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
+    Source directory: /home/tcdvanderbieze/Gradius_02b
+    HDL source file: VHDL/gradius-behaviour.vhd
+    Source file: VHDL/gradius-behaviour.vhd
+    Start location: VHDL/gradius-behaviour.vhd:4
+    Version string: k@n>JO6I`nl3oD5_[Z^Nj2
+    Opcode format: 10.5b; VCOM SE-64 Object version 63
+    VHDL language standard: 3 (VHDL-2008)
+    Compile time: Tue Dec 18 12:30:57 2018
+    Debug Symbol file exists
+    Compiled in vopt flow
+    Compile options: -quiet -nologo -2008 -lower -explicit -work work
+    Compile defaults: Explicit=1 CvgOpt=0
+ENTITY test
+    Source modified time: Tue Dec 18 12:14:18 2018
+    Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
+    Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
+    Source directory: /home/tcdvanderbieze/Gradius_02b
+    HDL source file: VHDL/test.vhd
+    Source file: VHDL/test.vhd
+    Start location: VHDL/test.vhd:4
+    Version string: _FX6kDW2YF?gb1FWRUoSE2
+    Opcode format: 10.5b; VCOM SE-64 Object version 63
+    VHDL language standard: 3 (VHDL-2008)
+    Compile time: Tue Dec 18 12:14:19 2018
+    Debug Symbol file exists
+    Compiled in vopt flow
+    Compile options: -quiet -nologo -2008 -lower -explicit -work work
+    Compile defaults: Explicit=1 CvgOpt=0

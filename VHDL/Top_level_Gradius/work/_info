@@ -1,0 +1,117 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/tcdvanderbieze/Collision/Gradius_02b
+Egradius_top_level
+w1545123816
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8VHDL/top_level.vhd
+FVHDL/top_level.vhd
+l0
+L4
+VU`K`I_YFzJnPmS;OVLZgU3
+!s100 7O@IcanOS`@<AN8]EbA9C1
+Z3 OL;C;10.5b;63
+33
+!s110 1545123816
+!i10b 1
+!s108 1545123816.000000
+!s90 -2008|-lower|-explicit|-work|work|VHDL/top_level.vhd|-quiet|-nologo|
+!s107 VHDL/top_level.vhd|
+!i113 0
+Z4 o-quiet -nologo -2008 -lower -explicit -work work
+Z5 tExplicit 1 CvgOpt 0
+Abehaviour
+w1545132458
+DEx4 work 17 gradius_top_level 0 22 U`K`I_YFzJnPmS;OVLZgU3
+R1
+R2
+Z6 d/home/tcdvanderbieze/Gradius_02b
+8VHDL/gradius_top_level-behaviour.vhd
+FVHDL/gradius_top_level-behaviour.vhd
+l187
+L4
+VWW:=HJ^mGCAzgnOO^LO7_2
+!s100 R=]ED49F[0gib`1VWHXL03
+R3
+33
+!s110 1545132458
+!i10b 1
+!s108 1545132458.000000
+!s90 -2008|-lower|-explicit|-work|work|VHDL/gradius_top_level-behaviour.vhd|-quiet|-nologo|
+!s107 VHDL/gradius_top_level-behaviour.vhd|
+!i113 0
+R4
+R5
+Estate_gradius
+w1545123586
+R1
+R2
+R0
+8VHDL/gradius.vhd
+FVHDL/gradius.vhd
+l0
+L4
+V?EHgkO<EWb>g?WAbX[3Mj2
+!s100 3B4VV09gHMjm_OOl3EIIg1
+R3
+33
+!s110 1545123586
+!i10b 1
+!s108 1545123586.000000
+!s90 -2008|-lower|-explicit|-work|work|VHDL/gradius.vhd|-quiet|-nologo|
+!s107 VHDL/gradius.vhd|
+!i113 0
+R4
+R5
+Abehaviour
+Z7 w1545123599
+Z8 DEx4 work 13 state_gradius 0 22 ?EHgkO<EWb>g?WAbX[3Mj2
+R1
+R2
+R6
+Z9 8VHDL/gradius-behaviour.vhd
+Z10 FVHDL/gradius-behaviour.vhd
+l7
+L4
+Z11 Vk@n>JO6I`nl3oD5_[Z^Nj2
+Z12 !s100 ]hXGVo:?fzM3MFOK0P9nQ2
+R3
+33
+!s110 1545132657
+!i10b 1
+!s108 1545132657.000000
+Z13 !s90 -2008|-lower|-explicit|-work|work|VHDL/gradius-behaviour.vhd|-quiet|-nologo|
+!s107 VHDL/gradius-behaviour.vhd|
+!i113 0
+R4
+R5
+Etest
+w1545131658
+R1
+R2
+R6
+8VHDL/test.vhd
+FVHDL/test.vhd
+l0
+L4
+V_FX6kDW2YF?gb1FWRUoSE2
+!s100 <oFO5IaTc153FHh@X[0j12
+R3
+33
+!s110 1545131659
+!i10b 1
+!s108 1545131658.000000
+!s90 -2008|-lower|-explicit|-work|work|VHDL/test.vhd|-quiet|-nologo|
+!s107 VHDL/test.vhd|
+!i113 0
+R4
+R5
