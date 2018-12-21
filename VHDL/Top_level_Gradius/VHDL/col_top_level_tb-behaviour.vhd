@@ -83,11 +83,11 @@ begin
    reset <='1' after 0 ns, 
 	   '0' after 310 ns;
    main_enable <='1' after 0 ns, 
-	   '0' after 400 ns,
+	   '0' after 14000 ns,
 	   '1' after 15000 ns, 
-	   '0' after 15160 ns,
+	   '0' after 29000 ns,
 	   '1' after 30000 ns,
-	   '0' after 30160 ns;
+	   '0' after 50000 ns;
    y_0 <=  std_logic_vector(to_unsigned(50,9)) after 0 ns,
            std_logic_vector(to_unsigned(240,9)) after 15000 ns, 
            std_logic_vector(to_unsigned(150,9)) after 30000 ns; 

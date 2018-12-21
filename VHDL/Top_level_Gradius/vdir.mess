@@ -1,5 +1,14 @@
 Library vendor : Model Technology
 Maximum unnamed designs : 3
+OPTIMIZED DESIGN _opt
+    Compile time: Thu Dec 20 21:32:17 2018
+    Version string: o:U86UV1_97ShBV<OjEHB3
+    Top-level model: work col_top_level_tb_behaviour_top_level_tb_cfg 1
+    Compile options: -quiet -auto_acc_if_foreign -work work -L TSMCLib
+    Compile defaults: CvgOpt=0
+    Short name: @_opt
+    Opcode format: 10.5b; VCOM/VLOG SE-64 Object version 63
+    Source directory: /home/tcdvanderbieze/Collision/Gradius_02b
 ENTITY bullet
     Source modified time: Thu Dec 20 11:57:47 2018
     Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
@@ -55,23 +64,23 @@ VHDL CONFIGURATION bullet_behaviour_cfg
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
 ENTITY col_top_level
-    Source modified time: Thu Dec 20 11:44:07 2018
+    Source modified time: Thu Dec 20 21:53:44 2018
     Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
     Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
-    Source directory: /home/tcdvanderbieze/EPO_3/EPO3/VHDL/Top_level_Gradius
+    Source directory: /home/tcdvanderbieze/EPO_3/EPO3_collision/VHDL/Top_level_Gradius
     HDL source file: VHDL/top_level.vhd
     Source file: VHDL/top_level.vhd
     Start location: VHDL/top_level.vhd:4
     Version string: H?RhRT`Xna3HNP[Iz6;J_0
     Opcode format: 10.5b; VCOM SE-64 Object version 63
     VHDL language standard: 3 (VHDL-2008)
-    Compile time: Thu Dec 20 11:44:07 2018
+    Compile time: Thu Dec 20 21:53:49 2018
     Debug Symbol file exists
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
   ARCHITECTURE BODY behaviour_top_level
-    Source modified time: Thu Dec 20 11:45:37 2018
+    Source modified time: Thu Dec 20 21:49:51 2018
     Depends on: E work col_top_level H?RhRT`Xna3HNP[Iz6;J_0
     Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
     Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
@@ -81,12 +90,12 @@ ENTITY col_top_level
     Version string: 50P`^>]C^8JXJf2IEf[N12
     Opcode format: 10.5b; VCOM SE-64 Object version 63
     VHDL language standard: 3 (VHDL-2008)
-    Compile time: Thu Dec 20 11:45:37 2018
+    Compile time: Thu Dec 20 21:52:01 2018
     Debug Symbol file exists
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
-    Source directory: /home/tcdvanderbieze/EPO_3/EPO3/VHDL/Top_level_Gradius
+    Source directory: /home/tcdvanderbieze/EPO_3/EPO3_collision/VHDL/Top_level_Gradius
 VHDL CONFIGURATION col_top_level_behaviour_top_level_cfg
     Configuration applies to entity: col_top_level
     Block configuration applies to architecture: behaviour_top_level
@@ -129,7 +138,7 @@ ENTITY col_top_level_tb
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
   ARCHITECTURE BODY behaviour_top_level_tb
-    Source modified time: Thu Dec 20 12:05:43 2018
+    Source modified time: Thu Dec 20 21:32:01 2018
     Depends on: E work col_top_level_tb LJ2I1fR14<5<j>[]oL?QO2
     Depends on: P ieee numeric_std :ASDNFgHXf_ih3J@9F3Ze1
     Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
@@ -137,10 +146,10 @@ ENTITY col_top_level_tb
     HDL source file: VHDL/col_top_level_tb-behaviour.vhd
     Source file: VHDL/col_top_level_tb-behaviour.vhd
     Start location: VHDL/col_top_level_tb-behaviour.vhd:5
-    Version string: YKS@JFQW=@UnK=jVFdh6;0
+    Version string: PB[Kf^`8QaWG>aBNc?AUd3
     Opcode format: 10.5b; VCOM SE-64 Object version 63
     VHDL language standard: 3 (VHDL-2008)
-    Compile time: Thu Dec 20 12:05:44 2018
+    Compile time: Thu Dec 20 21:32:01 2018
     Debug Symbol file exists
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
@@ -152,7 +161,7 @@ VHDL CONFIGURATION col_top_level_tb_behaviour_top_level_tb_cfg
     Depends on: E work col_top_level H?RhRT`Xna3HNP[Iz6;J_0
     Depends on: C work col_top_level_behaviour_top_level_cfg 7GXd7fXNgcCcPoBoD<=Dn0
     Depends on: P ieee numeric_std :ASDNFgHXf_ih3J@9F3Ze1
-    Depends on: A work col_top_level_tb behaviour_top_level_tb YKS@JFQW=@UnK=jVFdh6;0
+    Depends on: A work col_top_level_tb behaviour_top_level_tb PB[Kf^`8QaWG>aBNc?AUd3
     Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
     Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
     Depends on: E work col_top_level_tb LJ2I1fR14<5<j>[]oL?QO2
@@ -164,7 +173,7 @@ VHDL CONFIGURATION col_top_level_tb_behaviour_top_level_tb_cfg
     Version string: c6N>Y?X1e7lILlAZX@fCR0
     Opcode format: 10.5b; VCOM SE-64 Object version 63
     VHDL language standard: 3 (VHDL-2008)
-    Compile time: Thu Dec 20 12:05:52 2018
+    Compile time: Thu Dec 20 21:32:06 2018
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
@@ -172,20 +181,20 @@ ENTITY collision
     Source modified time: Fri Dec 14 10:26:13 2018
     Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
     Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
-    Source directory: /home/tcdvanderbieze/EPO_3/EPO3/VHDL/Top_level_Gradius
+    Source directory: /home/tcdvanderbieze/EPO_3/EPO3_collision/VHDL/Top_level_Gradius
     HDL source file: VHDL/collision.vhd
     Source file: VHDL/collision.vhd
     Start location: VHDL/collision.vhd:4
     Version string: [=ol8=FjFFIH_CHlEO0jM1
     Opcode format: 10.5b; VCOM SE-64 Object version 63
     VHDL language standard: 3 (VHDL-2008)
-    Compile time: Thu Dec 20 11:16:17 2018
+    Compile time: Thu Dec 20 12:43:42 2018
     Debug Symbol file exists
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
   ARCHITECTURE BODY behaviour_collision
-    Source modified time: Fri Dec 14 11:32:42 2018
+    Source modified time: Thu Dec 20 21:29:28 2018
     Depends on: E work collision [=ol8=FjFFIH_CHlEO0jM1
     Depends on: P ieee numeric_std :ASDNFgHXf_ih3J@9F3Ze1
     Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
@@ -193,32 +202,32 @@ ENTITY collision
     HDL source file: VHDL/collision-behaviour.vhd
     Source file: VHDL/collision-behaviour.vhd
     Start location: VHDL/collision-behaviour.vhd:5
-    Version string: a2;T0RM;:fI?2LJTG[hdk0
+    Version string: =A1623mCC?1gZJ8WAAU;k0
     Opcode format: 10.5b; VCOM SE-64 Object version 63
     VHDL language standard: 3 (VHDL-2008)
-    Compile time: Thu Dec 20 11:16:18 2018
+    Compile time: Thu Dec 20 21:29:28 2018
     Debug Symbol file exists
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
-    Source directory: /home/tcdvanderbieze/EPO_3/EPO3/VHDL/Top_level_Gradius
+    Source directory: /home/tcdvanderbieze/EPO_3/EPO3_collision/VHDL/Top_level_Gradius
 VHDL CONFIGURATION collision_behaviour_collision_cfg
     Configuration applies to entity: collision
     Block configuration applies to architecture: behaviour_collision
     Depends on: P ieee numeric_std :ASDNFgHXf_ih3J@9F3Ze1
-    Depends on: A work collision behaviour_collision a2;T0RM;:fI?2LJTG[hdk0
+    Depends on: A work collision behaviour_collision =A1623mCC?1gZJ8WAAU;k0
     Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
     Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
     Depends on: E work collision [=ol8=FjFFIH_CHlEO0jM1
     Source modified time: Thu Dec 20 11:45:53 2018
-    Source directory: /home/tcdvanderbieze/EPO_3/EPO3/VHDL/Top_level_Gradius
+    Source directory: /home/tcdvanderbieze/EPO_3/EPO3_collision/VHDL/Top_level_Gradius
     HDL source file: VHDL/collision_behaviour_collision_cfg.vhd
     Source file: VHDL/collision_behaviour_collision_cfg.vhd
     Start location: VHDL/collision_behaviour_collision_cfg.vhd:1
     Version string: JQQH^XWoX:oJan@aG<M8@2
     Opcode format: 10.5b; VCOM SE-64 Object version 63
     VHDL language standard: 3 (VHDL-2008)
-    Compile time: Thu Dec 20 11:45:53 2018
+    Compile time: Thu Dec 20 21:30:38 2018
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
@@ -703,41 +712,41 @@ VHDL CONFIGURATION enemy_behaviour_cfg
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
-ENTITY gradius_top_level
-    Source modified time: Tue Dec 18 10:03:36 2018
+ENTITY gradius_toplvl
+    Source modified time: Thu Dec 20 21:56:53 2018
     Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
     Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
-    Source directory: /home/tcdvanderbieze/Collision/Gradius_02b
-    HDL source file: VHDL/top_level.vhd
-    Source file: VHDL/top_level.vhd
-    Start location: VHDL/top_level.vhd:4
-    Version string: U`K`I_YFzJnPmS;OVLZgU3
+    Source directory: /home/tcdvanderbieze/EPO_3/EPO3_collision/VHDL/Top_level_Gradius
+    HDL source file: VHDL/gradius_toplvl.vhd
+    Source file: VHDL/gradius_toplvl.vhd
+    Start location: VHDL/gradius_toplvl.vhd:4
+    Version string: HCeDEc5`3<:;5XjUSjdiF3
     Opcode format: 10.5b; VCOM SE-64 Object version 63
     VHDL language standard: 3 (VHDL-2008)
-    Compile time: Tue Dec 18 10:03:36 2018
+    Compile time: Thu Dec 20 21:56:53 2018
     Debug Symbol file exists
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
   ARCHITECTURE BODY behaviour
-    Source modified time: Thu Dec 20 12:16:15 2018
-    Depends on: E work gradius_top_level U`K`I_YFzJnPmS;OVLZgU3
+    Source modified time: Thu Dec 20 21:58:19 2018
+    Depends on: E work gradius_toplvl HCeDEc5`3<:;5XjUSjdiF3
     Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
     Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
-    Source directory: /home/tcdvanderbieze/EPO_3/EPO3_collision/VHDL/Top_level_Gradius
-    HDL source file: VHDL/gradius_top_level-behaviour.vhd
-    Source file: VHDL/gradius_top_level-behaviour.vhd
-    Start location: VHDL/gradius_top_level-behaviour.vhd:4
-    Version string: E6U83h27:F>07hW<ZV5hV2
+    HDL source file: VHDL/gradius_toplvl-behaviour.vhd
+    Source file: VHDL/gradius_toplvl-behaviour.vhd
+    Start location: VHDL/gradius_toplvl-behaviour.vhd:4
+    Version string: W10:PmW=P4PgQh=0lJ2PR2
     Opcode format: 10.5b; VCOM SE-64 Object version 63
     VHDL language standard: 3 (VHDL-2008)
-    Compile time: Thu Dec 20 12:16:15 2018
+    Compile time: Thu Dec 20 21:58:19 2018
     Debug Symbol file exists
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
-VHDL CONFIGURATION gradius_top_level_behaviour_cfg
-    Configuration applies to entity: gradius_top_level
+    Source directory: /home/tcdvanderbieze/EPO_3/EPO3_collision/VHDL/Top_level_Gradius
+VHDL CONFIGURATION gradius_toplvl_behaviour_cfg
+    Configuration applies to entity: gradius_toplvl
     Block configuration applies to architecture: behaviour
     Depends on: E work state_gradius ?EHgkO<EWb>g?WAbX[3Mj2
     Depends on: E work toplevel_spawn dIkZEVDK6Mz;34ic[F2<20
@@ -747,19 +756,19 @@ VHDL CONFIGURATION gradius_top_level_behaviour_cfg
     Depends on: C work toplevel_spawn_behaviour_cfg ?k>RmNkJZGGW[d12mbJkG2
     Depends on: C work col_top_level_behaviour_top_level_cfg 7GXd7fXNgcCcPoBoD<=Dn0
     Depends on: C work display_behaviour_cfg XFTAgnbRVNgTgMW^g`6_b0
-    Depends on: A work gradius_top_level behaviour E6U83h27:F>07hW<ZV5hV2
+    Depends on: A work gradius_toplvl behaviour W10:PmW=P4PgQh=0lJ2PR2
     Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
     Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
-    Depends on: E work gradius_top_level U`K`I_YFzJnPmS;OVLZgU3
-    Source modified time: Thu Dec 20 12:21:14 2018
+    Depends on: E work gradius_toplvl HCeDEc5`3<:;5XjUSjdiF3
+    Source modified time: Thu Dec 20 21:58:54 2018
     Source directory: /home/tcdvanderbieze/EPO_3/EPO3_collision/VHDL/Top_level_Gradius
-    HDL source file: VHDL/gradius_top_level_behaviour_cfg.vhd
-    Source file: VHDL/gradius_top_level_behaviour_cfg.vhd
-    Start location: VHDL/gradius_top_level_behaviour_cfg.vhd:1
-    Version string: bBSHSS_>IJPED3?5d2XXn1
+    HDL source file: VHDL/gradius_toplvl_behaviour_cfg.vhd
+    Source file: VHDL/gradius_toplvl_behaviour_cfg.vhd
+    Start location: VHDL/gradius_toplvl_behaviour_cfg.vhd:1
+    Version string: I7gEf3H_CFTCzUd@4Mnh63
     Opcode format: 10.5b; VCOM SE-64 Object version 63
     VHDL language standard: 3 (VHDL-2008)
-    Compile time: Thu Dec 20 12:21:14 2018
+    Compile time: Thu Dec 20 21:58:54 2018
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
@@ -940,7 +949,7 @@ ENTITY state_gradius
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0
   ARCHITECTURE BODY behaviour
-    Source modified time: Thu Dec 20 12:18:01 2018
+    Source modified time: Thu Dec 20 22:02:45 2018
     Depends on: E work state_gradius ?EHgkO<EWb>g?WAbX[3Mj2
     Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
     Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
@@ -948,10 +957,10 @@ ENTITY state_gradius
     HDL source file: VHDL/gradius-behaviour.vhd
     Source file: VHDL/gradius-behaviour.vhd
     Start location: VHDL/gradius-behaviour.vhd:4
-    Version string: >FDGJYSa2jA:gEO3890^h1
+    Version string: 4KZkGGlRN4nzTfW4lUiZl0
     Opcode format: 10.5b; VCOM SE-64 Object version 63
     VHDL language standard: 3 (VHDL-2008)
-    Compile time: Thu Dec 20 12:18:01 2018
+    Compile time: Thu Dec 20 22:02:45 2018
     Debug Symbol file exists
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
@@ -1026,22 +1035,6 @@ VHDL CONFIGURATION sync_behaviour_cfg
     Opcode format: 10.5b; VCOM SE-64 Object version 63
     VHDL language standard: 3 (VHDL-2008)
     Compile time: Thu Dec 20 11:59:15 2018
-    Compiled in vopt flow
-    Compile options: -quiet -nologo -2008 -lower -explicit -work work
-    Compile defaults: Explicit=1 CvgOpt=0
-ENTITY top_level_tb
-    Source modified time: Thu Dec 20 12:00:20 2018
-    Depends on: P std textio zE1`LPoLg^DX3Oz^4Fj1K3
-    Depends on: P ieee std_logic_1164 eNV`TJ_GofJTzYa?f<@Oe1
-    Source directory: /home/tcdvanderbieze/EPO_3/EPO3_collision/VHDL/Top_level_Gradius
-    HDL source file: VHDL/top_level_tb.vhd
-    Source file: VHDL/top_level_tb.vhd
-    Start location: VHDL/top_level_tb.vhd:4
-    Version string: j?Y4<G_`:loan5^7dT7zW1
-    Opcode format: 10.5b; VCOM SE-64 Object version 63
-    VHDL language standard: 3 (VHDL-2008)
-    Compile time: Thu Dec 20 12:00:20 2018
-    Debug Symbol file exists
     Compiled in vopt flow
     Compile options: -quiet -nologo -2008 -lower -explicit -work work
     Compile defaults: Explicit=1 CvgOpt=0

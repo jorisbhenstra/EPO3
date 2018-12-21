@@ -1,0 +1,1 @@
+ssh -XY tcdvanderbieze@ce-epo3-cad.ewi.tudelft.nl cd /home/tcdvanderbieze/EPO_3/EPO3_collision/VHDL/Top_level_Gradius/backend/syn/run\; genus -files ../tcl/syn2.tcl

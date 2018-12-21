@@ -3,7 +3,7 @@ use IEEE.std_logic_1164.ALL;
 use ieee.numeric_std.all;
 
 architecture behaviour_collision of collision is
-type collision_state is (reset_state, not_colliding, colliding, next_object);
+type collision_state is (reset_state, not_colliding, colliding, next_object, wait_state);
 	signal state, new_state : collision_state;
 type range_state is (range_reset_state, object_object, object_bullet, bullet_object);
 	signal range_state_out, range_new_state : range_state;
@@ -101,7 +101,7 @@ begin
 		cnt_2_reset	<= '1'; -- reset the counter
 		done <= '0' ; --still processing
 		if (c_1 = "0000") then
-		new_state <= reset_state; --done with all calculations/ final object has been analyzed
+		new_state <= wait_state; --done with all calculations/ final object has been analyzed
 		else
 	  	new_state <= not_colliding;
 		end if;
@@ -112,9 +112,19 @@ begin
 		cnt_2_reset	<= '1'; --reset the counter	
 		done <= '0' ; --still processing
 	  	if (c_1 = "0000") then
-		new_state <= reset_state; --done with all calculations/ final object has been analyzed
+		new_state <= wait_state; --done with all calculations/ final object has been analyzed
 		else
 	  	new_state <= not_colliding;
+		end if;
+	when wait_state =>
+		new_col <= col;
+		cnt_1_enable	<= '0';	--do not count
+		cnt_2_reset	<= '1'; --reset the counter
+		done <= '1' ; --system has processed all the incomming data
+		if (main_enable = '0') then
+	        		new_state <= reset_state; --new coordinates are present
+		else
+			new_state <= wait_state; -- nothing new, just do nothing
 		end if;
 	end case;
 end process;

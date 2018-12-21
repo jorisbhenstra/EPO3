@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.std_logic_1164.ALL;
 
-entity gradius_top_level is
+entity gradius_tlvl is
 port(	clk    : in  std_logic;
         reset  : in  std_logic;
         left   : in  std_logic;
@@ -14,4 +14,5 @@ port(	clk    : in  std_logic;
 	b      : out  std_logic;
 	h_sync : out  std_logic;
 	v_sync : out  std_logic);
-end gradius_top_level;
+end gradius_tlvl;
+

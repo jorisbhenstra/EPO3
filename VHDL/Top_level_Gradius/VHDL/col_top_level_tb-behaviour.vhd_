@@ -187,7 +187,4 @@ begin
            std_logic_vector(to_unsigned(160,9)) after 30000 ns; 
 lbl1: col_top_level port map(clk, reset, y_0, y_1, y_2, y_3, y_4, y_5, y_6, y_7, y_8, y_9, y_10, y_11, y_12, y_13, y_14, y_15, x_0, x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, main_enable, done, col);
 end behaviour_top_level_tb;
-library IEEE;
-
-
 

@@ -17,7 +17,7 @@ begin
 end process;
 
 
-Top_level_game_state: process (all)
+Top_level_game_state: process (state, new_state, left, right, up, down, shoot)
 begin
 	case state is
 		when start_state =>

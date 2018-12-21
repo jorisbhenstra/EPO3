@@ -21,7 +21,7 @@ Top_level_game_state: process (all)
 begin
 	case state is
 		when start_state =>
-			game_state_info_signal <= "00";
+			game_state_info_signal <= "10";
 
 
 
@@ -32,7 +32,7 @@ begin
 				new_state <= start_state;
 			end if;
 		when gaming_state =>
-			game_state_info_signal <= "10";
+			game_state_info_signal <= "00";
 			
 			if(collision_player='1') then
 				new_state <= game_over_state;
